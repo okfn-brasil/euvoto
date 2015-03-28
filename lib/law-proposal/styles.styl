@@ -25,9 +25,13 @@
     margin-bottom 1em
     border-radius 3px
     background-color #ebeff0
-    min-height 300px
-    overflow hidden
     position relative
+
+    .law-image
+      width 100%
+      text-align center
+      img
+        width 100%
 
     .law-title
       background-color #7A1533
@@ -54,7 +58,7 @@
     h2
       font-size 1.9em
       margin-top 0
-      margin-bottom 1em
+      margin-bottom 0
       padding 1em
       font-weight 900
       color #fff
@@ -80,10 +84,7 @@
       margin-bottom 3px
 
     .author-wrapper
-      bottom 0
-      left 0
       min-height 40px
-      position absolute
       width 100%
       background-color #909DA5
       color #fff
@@ -144,7 +145,8 @@
         margin-bottom 10px
 
     .desc
-      margin 0 0 .5em 0
+      margin 0 0
+      top 0
       font-size 1.4em
       line-height 1.5
       color #000
@@ -171,10 +173,6 @@ law-proposal-big()
       margin-right 5%
       width calc('50% - 1em', 48%)
       margin-right calc(1em)
-
-    .desc
-      position relative
-      top -.3em
 
 @media screen and (min-width 600px)
   law-proposal-big()

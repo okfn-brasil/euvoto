@@ -18,12 +18,17 @@
         - var url = 'http://twitter.com/share?text=' + tweet
       - else
         - var url = law.authorUrl
-
+    - if(law.imageUrl)
+     .law-image
+       img(src=law.imageUrl)   
       - if (law.picture)
         .pic(style="background-image: url(#{law.picture})")
           span
     .law-summary
-      p.desc!=law.summary.substr(0,180) + '[...]'
+      - if (law.frontpageText)
+       p.desc=law.frontpageText
+      - else
+       p.desc='[...]'
     .author-wrapper
       - if (law.author)
       .author

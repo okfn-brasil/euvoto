@@ -27,6 +27,9 @@
       .form-group
         label= t('admin-laws-form.label.author') + ' URL'
         input.form-control(type='text', id="authorUrl", name='authorUrl', tabindex=4, placeholder='http://en.wikipedia.org/wiki/John_Doe', value=law.authorUrl, validate='url')
+      .form-group
+        label='Frontpage Image URL'
+        input.form-control(type='text', id="imageUrl", name='imageUrl', tabindex=4, placeholder='', value=law.imageUrl, validate='url')
       .checkbox
         label
           - var votable = !law.id || law.votable
@@ -43,6 +46,9 @@
         select.form-control(name='tag', tabindex=8, validate='required')
           - each tag in tags
             option(selected= law.tag ? tag.hash === law.tag.hash : false, value=tag.hash)= tag.name
+      .form-group
+        label='Frontpage Text'
+        textarea.form-control(name='frontpageText', tabindex=9)= law.frontpageText
       .form-group
         label= t('admin-laws-form.label.summary')
         textarea.form-control(name='summary', tabindex=9)= law.summary

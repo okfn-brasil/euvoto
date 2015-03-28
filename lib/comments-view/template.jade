@@ -24,9 +24,9 @@
     - if (!logged)
       .box
         p.text-mute= t('comments.sign-in-required')
-          | .
-          a(href="/signin")= t('Login')
-          |  #{t('common.or')}
+          | .&nbsp;
+          a(href="/signin")= t('signin.login')
+          | &nbsp;#{t('common.or')}&nbsp;
           - var signupUrl = '/signup?reference=' + law.id
-          a(href=signupUrl)= t('Signup')
+          a(href=signupUrl)= t('signin.signup')
           | .

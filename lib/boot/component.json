@@ -31,7 +31,8 @@
     "logout",
     "help",
     "404",
-    "browser-update"
+    "browser-update",
+    "debug"
   ],
   "scripts": [ "boot.js" ],
   "styles": [ "boot.styl", "boot-responsive.styl" ],
@@ -43,6 +44,7 @@
     "images/touch-icon-ipad-retina.png",
     "images/logo.png",
     "images/eu-voto-img.png"
+    "images/favicon.ico",
   ],
   "main": "boot.js"
 }

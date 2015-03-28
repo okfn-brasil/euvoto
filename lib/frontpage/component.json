@@ -1,0 +1,27 @@
+{
+  "name": "frontpage",
+  "description": "Frontpage",
+  "dependencies": {
+    "component/dom": "1.0.6",
+    "visionmedia/debug": "2.1.0",
+    "jadejs/jade": "1.1.5",
+    "democracyos/headroom.js": "0.7.1",
+    "component/classes": "1.2.0",
+    "visionmedia/page.js": "1.3.7",
+    "component/t": "1.0.0"
+    },
+  "locals": [
+    "view"
+  ],
+  "images": [
+    "images/eu-voto-img.png"
+  ],
+  "scripts": [
+    "view.js",
+    "frontpage.js",
+    "index.js"
+  ],
+  "styles": [ "frontpage.styl" ],
+  "templates": [ "template.jade" ],
+  "main": "frontpage.js"
+}

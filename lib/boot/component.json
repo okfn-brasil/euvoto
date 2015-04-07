@@ -43,8 +43,8 @@
     "images/touch-icon-iphone-retina.png",
     "images/touch-icon-ipad-retina.png",
     "images/logo.png",
-    "images/eu-voto-img.png"
-    "images/favicon.ico",
+    "images/eu-voto-img.png",
+    "images/favicon.ico"
   ],
   "main": "boot.js"
 }

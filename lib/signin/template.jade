@@ -5,6 +5,9 @@
         i.icon-signin
       h1 #{t('signin.login-to') + " " + t('common.app-name')}
 
+      #facebook-button
+        a(href='/auth/facebook', target='_self') #{t('Entrar com o Facebook')}
+
     form.form(action="/signin", method="post", role="form", autovalidate='autovalidate', autosubmit='autosubmit')
       ul.form-errors
       .form-group

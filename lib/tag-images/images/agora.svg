@@ -1,21 +1,18 @@
-<svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Livello_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<switch>
-	<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
-		</foreignObject>
-	<g i:extraneous="self">
-		<polygon fill="#ffffff" points="99,38     51.148,2.8 1.25,38   "/>
-		
-			<rect x="76" y="39" fill="#ffffff" width="9" height="49"/>
-		
-			<rect x="9" y="88" fill="#ffffff" width="80" height="3"/>
-		
-			<rect x="3" y="91" fill="#ffffff"  width="92" height="6"/>
-		
-			<rect x="13" y="39" fill="#ffffff" width="9" height="49"/>
-		
-			<rect x="33" y="39" fill="#ffffff" width="9" height="49"/>
-		
-			<rect x="56" y="39" fill="#ffffff" width="9" height="49"/>
-	</g>
-</switch>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1500px" height="1300px" viewBox="0 0 1500 1300" enable-background="new 0 0 1500 1300" xml:space="preserve">
+<polygon fill="#1E4C72" points="375,1300 0,650.002 375,0 1125,0 1500,650.002 1125,1300 "/>
+<path fill="#FFFFFF" d="M750.019,588.565c56.147,0,103.349,38.391,116.714,90.32c16.835,65.067,14.462,136.453,88.212,173.446
+	c65.387,22.45,90.11,50.67,90.11,126.246c0,60.348-51.182,124.457-117.226,132.454c-73.75,11.193-131.268-3.414-177.811-30.22
+	c-46.571,26.806-104.079,41.413-177.793,30.22c-66.08-7.997-117.262-72.344-117.262-132.454c0-73.95,26.402-105.266,91.699-126.721
+	c80.322-41.339,69.541-113.848,87.472-176.158C648.615,625.386,695.003,588.565,750.019,588.565L750.019,588.565z M1118.056,543.629
+	c-19.885-17.465-101.176,50.615-126.721,84.304c-15.575,17.949-25.198,42.646-25.198,69.897c0,54.824,38.838,99.23,86.751,99.23
+	c36.428,0,67.542-25.554,80.451-61.862C1158.391,669.957,1159.707,580.111,1118.056,543.629L1118.056,543.629z M381.926,543.629
+	c-41.649,36.482-40.317,126.328-15.229,191.569c12.892,36.309,44.024,61.862,80.415,61.862c47.912,0,86.75-44.406,86.75-99.23
+	c0-27.252-9.622-51.948-25.197-69.897C483.121,594.244,401.866,526.164,381.926,543.629L381.926,543.629z M856.946,185.78
+	c202.278,34.583,188.055,377.952,26.111,350.271c-46.708-7.979-81.364-50.897-86.623-102.106
+	C791.047,381.851,778.997,172.469,856.946,185.78L856.946,185.78z M643.046,185.78c77.967-13.312,65.897,196.07,60.538,248.164
+	c-5.276,51.209-39.905,94.118-86.622,102.106C454.973,563.732,440.794,220.363,643.046,185.78z"/>
 </svg>

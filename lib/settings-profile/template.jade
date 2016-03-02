@@ -5,6 +5,7 @@
         i.icon-user
       h1= t('settings.profile')
     form.form(action="/settings/profile", method="post", role="form", autocomplete="off", autovalidate='autovalidate', autosubmit='autosubmit')
+      
       ul.form-messages
       .form-group
         label #{t('settings.first-name')}
@@ -15,6 +16,14 @@
       .form-group
         label= t('signup.email')
         input.form-control(type='text', disabled='disabled' name='email', tabindex=3, placeholder=t('forgot.mail.example'), value='#{citizen.email}', validate='required email')
+      .form-group.panel.panel-default
+        label.panel-heading CEP
+        .ask-cep.alert.alert-warning.panel-body
+          |<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>  <strong>Pra que pedimos o CEP</strong>
+          p
+          p
+            |Você não é obrigado a preencher esse campo, mas fornecendo essa informação conseguiremos criar gráficos e mapas da sua cidade com as diferentes concentrações de votos por região.
+        input.form-control(type='text', id="cep", name='cep', tabindex=3, placeholder='CEP', value='#{citizen.cep}')
       .form-group.profile-picture
         .image-container
           img(src=citizen.profilePicture(), width="65")
